@@ -109,5 +109,10 @@ story.set_feature('tooltip', True)
 html(story._repr_html_(), width=width, height=height)
 
 st.download_button('Download HTML export', story.to_html(), file_name=f'revenue-by-product.html', mime='text/html')
+
+st.markdown('---')     
+st.markdown('''
+Contact: masinsight360@gmail.com
+''')
   
 
