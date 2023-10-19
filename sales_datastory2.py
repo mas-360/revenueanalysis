@@ -17,6 +17,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 st.set_page_config(page_title='A Revenue Analysis', layout='centered', page_icon="📊")
 
 st.header('📊 Annual Revenue Analysis')
+st.write("---")
 
 width=950
 height=500
@@ -104,7 +105,7 @@ html(story._repr_html_(), width=width, height=height)
 
 st.download_button('Download HTML export', story.to_html(), file_name=f'revenue-by-product.html', mime='text/html')
 
-st.markdown('---')     
+st.write("---")    
 st.markdown('''
 Contact: masinsight360@gmail.com
 ''')
