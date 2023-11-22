@@ -107,7 +107,7 @@ st.download_button('Download HTML export', story.to_html(), file_name=f'revenue-
 
 st.write("---")    
 st.markdown('''
-Contact: masinsight360@gmail.com
+By: Anthea Sago
 ''')
   
 
